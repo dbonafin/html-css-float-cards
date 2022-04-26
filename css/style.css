@@ -10,12 +10,16 @@ body {
     font-family: 'Fredoka', sans-serif;
 }
 
-/* first section */
+img {
+    height: 80px;
+    float: left;
+}
+
+/* first section/header */
 
 #total-container {
     width: 60%;
     margin: auto;
-    /* background-color: lightblue; */
     text-align: center;
     }
 
@@ -27,4 +31,34 @@ h1 {
 
 #introduction {
     margin: 20px 0;
+}
+
+/* second section/content */
+
+.card-container {
+    background-color: black;
+    width: calc(100% / 3);
+    font-size: 14px;
+}
+
+.card-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    color: white;
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.member-name {
+    font-family: 'Fredoka One', cursive;
+}
+
+.member-email {
+    color: aqua;
 }
