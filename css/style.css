@@ -11,7 +11,7 @@ body {
 }
 
 img {
-    height: 80px;
+    width: 80px;
     float: left;
 }
 
@@ -37,22 +37,31 @@ h1 {
 
 .card-container {
     background-color: black;
-    width: calc(100% / 3);
     font-size: 14px;
+    box-shadow: 5px;
 }
 
-.card-container::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.column {
+    width: calc(100% / 3);
+    float: left;
+    padding: 10px 10px;
 }
 
 .content {
     color: white;
     text-align: left;
     float: left;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: calc(100% - 80px);
+    line-height: 20px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 5px;
 }
 
 .member-name {
