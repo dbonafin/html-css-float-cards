@@ -7,5 +7,24 @@
 /* common */
 
 body {
-    font-family: 'Fredoka One';
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* first section */
+
+#total-container {
+    width: 60%;
+    margin: auto;
+    /* background-color: lightblue; */
+    text-align: center;
+    }
+
+h1 {
+    color: red;
+    margin: 30px 0;
+    font-family: 'Fredoka One', cursive;
+}
+
+#introduction {
+    margin: 20px 0;
 }
